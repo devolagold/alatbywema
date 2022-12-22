@@ -4,9 +4,18 @@
 @import url(button.css);
 @import url(bootstrap.min.css);
 @import url(unleash.css);
+@import url(media_query.css);
+@import url(navbar.css);
 
 body, html{
     font-family: "Inter" !important;
     background-color: var(--Dark-1);
     color: var(--White-100);
+}
+
+.grid-background{
+    background: url(/assets/grid-background-unleash.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

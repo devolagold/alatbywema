@@ -1,0 +1,38 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px){
+    .mx-14{
+        margin-left: 18px !important;
+        margin-right: 18px !important;
+    }
+
+    .Heading_Text_56_Bold{
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .Heading_Text_24_Medium{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .Heading_Text_66_Bold{
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+    .Heading_Text_56_Bold{
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .Heading_Text_24_Medium{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .Heading_Text_66_Bold{
+        font-size: 48px;
+        line-height: 54px;
+    }
+}

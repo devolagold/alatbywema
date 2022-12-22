@@ -1,0 +1,166 @@
+.navbar{
+    background-color: var(--Dark-1);
+    top: -3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 14px 4%;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-fixed{
+    background: rgb(22, 22, 22, .93);
+    position: fixed;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 22px rgb(0 0 0 / 5%);
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-link{
+    transition: all 0.3s ease 0s;
+    padding: 0;
+}
+
+.nav-item, .nav-item > a{
+    color: var(--Grey-1);
+    list-style: none;
+    font-size: 16px;
+    opacity: 80%;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-item > a:hover{
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 0px 16px ;
+}
+
+.cta >button{
+    font-size: 16px;
+    cursor: pointer;
+    padding: 12px 16px;
+    margin-left: 16px;
+    background-color: #121212;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover{
+    opacity: 90%;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 2.5rem;
+    right: 1.45rem;
+    display: none;
+    flex-direction: column;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+}
+
+.toggle-button .bar1, .toggle-button .bar2, .toggle-button .bar3{
+    height: 2px;
+    width: 100%;
+    background-color: var(--White-100);
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.open{
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.bar2{
+    transform: translateY(5px);
+}
+
+.bar3{
+    transform: translateY(10px);
+}
+
+.open .bar1{
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .bar2{
+    display: none;
+}
+
+.open .bar3{
+    transform: rotate(-45deg) translateY(4px) translate(-6px);
+}
+
+@media (max-width: 1024px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .nav-link, .cta-button{
+        display: none;
+        margin-top: 10px;
+    }
+
+    .cta > button{
+        background-color: white;
+        color: #121212;
+        padding-left: 0;
+        padding-top: 18px;
+        padding-bottom: 14px;
+        margin-left: 0;
+        opacity: 60%;
+    }
+
+    .cta-button{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .nav-link > ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-item{
+        padding-top: 18px;
+        padding-bottom: 14px;
+        padding-left: 0;
+    }
+
+    .nav-link.active{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .cta-button.active{
+        display: flex;
+    }
+
+    .navbar.active{
+        position: absolute;
+        height: 100%;
+    }
+
+    .button-text-only{
+        padding-left: 0;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+}

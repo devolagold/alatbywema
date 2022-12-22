@@ -1,12 +1,34 @@
 .button{
     padding: 14px 24px;
     border-radius: 5px;
-    background-color: var(--Grey-1);
+    background-color: var(--White-100);
+    color: var(--Dark-3);
+}
+
+.button:hover{
+    opacity: 95%;
+    text-decoration: none;
+    color: var(--Dark-3);
+}
+
+.button:focus, .button-text-icon:focus{
+    outline: none;
 }
 
 .button-border{
     background-color: transparent;
     border: 1px solid var(--Grey-1);
+}
+
+.button-text-only{
+    background-color: transparent;
+    color: var(--Grey-1);
+    opacity: 80%;
+}
+
+.button-text-only:hover{
+    opacity: 100%;
+    color: var(--Grey-1);
 }
 
 .button-text-icon{
@@ -23,6 +45,11 @@
     text-decoration: none;
 }
 
+.button-text-icon:hover svg{
+    transform: translateX(2px);
+    transition: all 1s ease-out;
+}
+
 .social-icon{
     padding: 10px;
     background: rgba(255, 255, 255, 0.04);
@@ -33,13 +60,4 @@
 
 .social-icon:hover{
     opacity: 100%;
-}
-
-
-.button:hover{
-    opacity: 90%;
-}
-
-.button:focus, .button-text-icon:focus{
-    outline: none;
 }
