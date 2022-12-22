@@ -1,0 +1,45 @@
+.button{
+    padding: 14px 24px;
+    border-radius: 5px;
+    background-color: var(--Grey-1);
+}
+
+.button-border{
+    background-color: transparent;
+    border: 1px solid var(--Grey-1);
+}
+
+.button-text-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    opacity: 80%;
+}
+
+.button-text-icon:hover{
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.social-icon{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(155, 155, 155, 0.25);
+    border-radius: 50%;
+    opacity: 80%;
+}
+
+.social-icon:hover{
+    opacity: 100%;
+}
+
+
+.button:hover{
+    opacity: 90%;
+}
+
+.button:focus, .button-text-icon:focus{
+    outline: none;
+}
