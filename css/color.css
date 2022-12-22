@@ -1,0 +1,19 @@
+:root{
+    --White-100: #FFFFFF;
+    --White-4: rgba(255, 255, 255, 0.04);
+    --White-7: rgba(255, 255, 255, 0.07);
+    --White-Linear: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.9) 100%);
+    --Dark-1: #161616;
+    --Dark-3: #111111;
+    --Grey-1: #9B9B9B;
+    --Grey-10: #FDFDFD;
+
+}
+
+.white-linear{
+    background: var(--White-Linear);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

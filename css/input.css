@@ -1,0 +1,11 @@
+@import url(reset.css);
+@import url(color.css);
+@import url(text.css);
+@import url(bootstrap.min.css);
+@import url(unleash.css);
+
+body, html{
+    font-family: "Inter" !important;
+    background-color: var(--Dark-1);
+    color: var(--White-100);
+}

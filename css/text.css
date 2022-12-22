@@ -1,0 +1,67 @@
+.Paragraph_Text_16_Regular{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.Paragraph_Text_16_Medium{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.Paragraph_Text_18_Regular{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+}
+
+.Paragraph_Text_20_Bold{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+}
+
+.Heading_Text_24_Medium{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+}
+
+.Heading_Text_38_Bold{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -0.02em;
+}
+
+.Heading_Text_56_Bold{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: -0.03em;
+}
+
+.Heading_Text_48_SemiBold{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.03em;
+}
+
+.Heading_Text_56_SemiBold{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: -0.03em;
+}
+
+.Heading_Text_66_Bold{
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+}
