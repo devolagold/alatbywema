@@ -10,7 +10,7 @@
 </head>
     <body>
         <!-- Navigation Bar -->
-        <nav class="navbar">
+        <nav id="nav" class="navbar navbar-fixed">
             <a href="#">
                 <img class="logo" src="assets/alat-logo.svg" alt="Logo">
             </a>
@@ -281,7 +281,7 @@
         <!-- Debit Card -->
         <section class="tab mx-14 my-20 text-center">
             <div class="row items-center space-y-10 md:space-y-0">
-                <div class="flex flex-col items-center space-y-6 md:space-y-8 col-lg-6 col-md-6 md:items-start">
+                <div class="flex flex-col items-center mt-10 space-y-6 md:space-y-8 col-lg-6 col-md-6 md:items-start">
                     <h1 class="Heading_Text_48_SemiBold text-center md:text-left">Grab an ALAT <br class="hidden md:block">
                             Debit card for free
                     </h1>
@@ -329,17 +329,13 @@
 
             <!-- News Letter Section -->
         <section class="mx-14">
-            <div class="flex flex-col text-center space-y-4 items-center justify-between md:flex-row">
-                <p class="text-lg font-medium">
+            <div class="flex flex-col text-center space-y-4 items-center justify-between lg:flex-row">
+                <p class="Paragraph_Text_18_Regular">
                     We’d love to let you know about our  products, ALAT news and offers via email.
                 </p>
                 <div class="group flex space-x-2">
-                    <input type="email" name="email" class="form-control w-4/5 md:w-80" placeholder="Enter your email">
-                    <a href="#">
-                        <button class="hero-button ml-3 text-white" style="margin: 0; background-color: #A80936;">
-                            Subcribe
-                        </button>
-                    </a>
+                    <input type="email" name="email" class="form-control w-4/5 md:w-80 h-auto Paragraph_Text_16_Regular" placeholder="Enter your email">
+                    <a href="#" class="button Paragraph_Text_16_Medium">Subcribe</a>
                 </div>
             </div>
         </section>
@@ -348,69 +344,69 @@
         <footer>
             <div class="row justify-between mx-14 mt-8 w-">
                 <div class="col-lg-3 col-md-3 p-0 m-0 my-3 md:my-0">
-                    <h1 class="wine font-bold text-xl">Company</h1>
+                    <h1 class="Paragraph_Text_20_Bold footer">Company</h1>
                     <div class="space-y-3 mt-4">
-                        <p><a href="#">About Alat</a></p>
-                        <p><a href="#">Wema Bank</a></p>
-                        <p><a href="#">Help Center</a></p>
-                        <p><a href="#">Security and Fruad</a></p>
-                        <p><a href="#">Website Accessibility</a></p>
-                        <p><a href="#">Privacy Policy</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">About Alat</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Wema Bank</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Help Center</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Security and Fruad</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Website Accessibility</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Privacy Policy</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 p-0 m-0 my-3 md:my-0">
-                    <h1 class="wine font-bold text-xl">Customer Support</h1>
+                    <h1 class="Paragraph_Text_20_Bold footer">Customer Support</h1>
                     <div class="space-y-3 mt-4">
-                        <p><a href="#">070022552528</a></p>
-                        <p><a href="#">help@alat.ng</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">070022552528</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">help@alat.ng</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 p-0 m-0 my-3 md:my-0">
-                    <h1 class="wine font-bold text-xl">Quick Links</h1>
+                    <h1 class="Paragraph_Text_20_Bold footer">Quick Links</h1>
                     <div class="space-y-3 mt-4">
-                        <p><a href="#">Join Us</a></p>
-                        <p><a href="#">Developers</a></p>
-                        <p><a href="#">Security</a></p>
-                        <p><a href="#">Media Center</a></p>
-                        <p><a href="#">Information Center</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Join Us</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Developers</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Security</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Media Center</a></p>
+                        <p><a href="#" class="Paragraph_Text_16_Regular footer-link">Information Center</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 p-0 m-0 my-3 md:my-0">
-                    <h1 class="wine font-bold text-xl">Supported By:</h1>
+                    <h1 class="Paragraph_Text_20_Bold footer">Supported By:</h1>
                     <div class="space-y-3 mt-4">
-                        <img src="resources/Logo-p4zqolijqef1on3qudqqqc5n6x071lll2o3u9fweis.png" alt="">
-                        <h1 class="font-bold text-lg mt-4">Connect with us:</h1>
-                        <div class="flex space-x-4">
-                            <a href="#" class="footer-social-icon">
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.5 10.125H12.375L13.125 7.125H10.5V5.625C10.5 4.8525 10.5 4.125 12 4.125H13.125V1.605C12.8805 1.57275 11.9572 1.5 10.9822 1.5C8.946 1.5 7.5 2.74275 7.5 5.025V7.125H5.25V10.125H7.5V16.5H10.5V10.125Z" fill="#A80936"/>
-                                </svg>                                
+                        <img src="assets/wema-logo.svg" alt="">
+                        <h1 class="Paragraph_Text_20_Bold footer mt-4">Connect with us:</h1>
+                        <div class="flex space-x-6 md:space-x-2 lg:space-x-6">
+                            <a href="#" class="social-icon">
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 10.125H12.875L13.625 7.125H11V5.625C11 4.8525 11 4.125 12.5 4.125H13.625V1.605C13.3805 1.57275 12.4572 1.5 11.4822 1.5C9.446 1.5 8 2.74275 8 5.025V7.125H5.75V10.125H8V16.5H11V10.125Z" fill="#FDFDFD"/>
+                                </svg>                                                                                                         
+                            </a>
+            
+                            <a href="#" class="social-icon">
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.345 4.5C16.7675 4.7625 16.145 4.935 15.5 5.0175C16.16 4.62 16.67 3.99 16.91 3.2325C16.2875 3.6075 15.5975 3.87 14.87 4.02C14.2775 3.375 13.445 3 12.5 3C10.7375 3 9.29753 4.44 9.29753 6.2175C9.29753 6.4725 9.32753 6.72 9.38003 6.9525C6.71003 6.8175 4.33253 5.535 2.75003 3.5925C2.47253 4.065 2.31503 4.62 2.31503 5.205C2.31503 6.3225 2.87753 7.3125 3.74753 7.875C3.21503 7.875 2.72003 7.725 2.28503 7.5V7.5225C2.28503 9.0825 3.39503 10.3875 4.86503 10.68C4.39308 10.8092 3.8976 10.8271 3.41753 10.7325C3.62123 11.3719 4.02018 11.9313 4.55829 12.3322C5.0964 12.7331 5.74662 12.9553 6.41753 12.9675C5.28025 13.8678 3.87053 14.3545 2.42003 14.3475C2.16503 14.3475 1.91003 14.3325 1.65503 14.3025C3.08003 15.2175 4.77503 15.75 6.59003 15.75C12.5 15.75 15.7475 10.845 15.7475 6.5925C15.7475 6.45 15.7475 6.315 15.74 6.1725C16.37 5.7225 16.91 5.1525 17.345 4.5V4.5Z" fill="#FDFDFD"/>
+                                </svg>                                                   
                             </a>
 
-                            <a href="#" class="footer-social-icon">
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.845 4.5C16.2675 4.7625 15.645 4.935 15 5.0175C15.66 4.62 16.17 3.99 16.41 3.2325C15.7875 3.6075 15.0975 3.87 14.37 4.02C13.7775 3.375 12.945 3 12 3C10.2375 3 8.79753 4.44 8.79753 6.2175C8.79753 6.4725 8.82753 6.72 8.88003 6.9525C6.21003 6.8175 3.83253 5.535 2.25003 3.5925C1.97253 4.065 1.81503 4.62 1.81503 5.205C1.81503 6.3225 2.37753 7.3125 3.24753 7.875C2.71503 7.875 2.22003 7.725 1.78503 7.5V7.5225C1.78503 9.0825 2.89503 10.3875 4.36503 10.68C3.89307 10.8092 3.3976 10.8271 2.91753 10.7325C3.12123 11.3719 3.52018 11.9313 4.05829 12.3322C4.5964 12.7331 5.24661 12.9553 5.91753 12.9675C4.78025 13.8678 3.37053 14.3545 1.92003 14.3475C1.66503 14.3475 1.41003 14.3325 1.15503 14.3025C2.58003 15.2175 4.27503 15.75 6.09003 15.75C12 15.75 15.2475 10.845 15.2475 6.5925C15.2475 6.45 15.2475 6.315 15.24 6.1725C15.87 5.7225 16.41 5.1525 16.845 4.5Z" fill="#A80936"/>
-                                </svg>                              
+                            <a href="#" class="social-icon">
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.57175 6.72675H10.3572V8.11425C10.7585 7.31625 11.7875 6.59925 13.3332 6.59925C16.2965 6.59925 17 8.18775 17 11.1022V16.5H14V11.766C14 10.1062 13.5987 9.17025 12.5772 9.17025C11.1605 9.17025 10.5717 10.179 10.5717 11.7652V16.5H7.57175V6.72675V6.72675ZM2.4275 16.3725H5.4275V6.59925H2.4275V16.3725V16.3725ZM5.85725 3.4125C5.85736 3.66396 5.80749 3.91293 5.71054 4.14494C5.61359 4.37695 5.47149 4.58738 5.2925 4.764C4.9298 5.12447 4.43886 5.32624 3.9275 5.325C3.41704 5.32466 2.92723 5.1234 2.564 4.76475C2.38566 4.58753 2.24404 4.37687 2.14726 4.14482C2.05048 3.91278 2.00043 3.66392 2 3.4125C2 2.90475 2.2025 2.41875 2.56475 2.06025C2.92766 1.70112 3.41768 1.49978 3.92825 1.5C4.43975 1.5 4.93025 1.70175 5.2925 2.06025C5.654 2.41875 5.85725 2.90475 5.85725 3.4125Z" fill="#FDFDFD"/>
+                                </svg>                                                                                  
                             </a>
-
-                            <a href="#" class="footer-social-icon">
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.07175 6.72675H9.85725V8.11425C10.2585 7.31625 11.2875 6.59925 12.8332 6.59925C15.7965 6.59925 16.5 8.18775 16.5 11.1022V16.5H13.5V11.766C13.5 10.1062 13.0987 9.17025 12.0772 9.17025C10.6605 9.17025 10.0717 10.179 10.0717 11.7652V16.5H7.07175V6.72675ZM1.9275 16.3725H4.9275V6.59925H1.9275V16.3725ZM5.35725 3.4125C5.35736 3.66396 5.30749 3.91293 5.21054 4.14494C5.11359 4.37695 4.97149 4.58738 4.7925 4.764C4.4298 5.12447 3.93886 5.32624 3.4275 5.325C2.91704 5.32466 2.42723 5.1234 2.064 4.76475C1.88566 4.58753 1.74404 4.37687 1.64726 4.14482C1.55048 3.91278 1.50043 3.66392 1.5 3.4125C1.5 2.90475 1.7025 2.41875 2.06475 2.06025C2.42766 1.70112 2.91768 1.49978 3.42825 1.5C3.93975 1.5 4.43025 1.70175 4.7925 2.06025C5.154 2.41875 5.35725 2.90475 5.35725 3.4125Z" fill="#A80936"/>
-                                </svg>                                                               
-                            </a>
-
-                            <a href="#" class="footer-social-icon">
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12.75 2.25H5.25C4.45435 2.25 3.69129 2.56607 3.12868 3.12868C2.56607 3.69129 2.25 4.45435 2.25 5.25V12.75C2.25 13.5456 2.56607 14.3087 3.12868 14.8713C3.69129 15.4339 4.45435 15.75 5.25 15.75H12.75C13.5456 15.75 14.3087 15.4339 14.8713 14.8713C15.4339 14.3087 15.75 13.5456 15.75 12.75V5.25C15.75 4.45435 15.4339 3.69129 14.8713 3.12868C14.3087 2.56607 13.5456 2.25 12.75 2.25Z" stroke="#A80936" stroke-width="1.5" stroke-linejoin="round"/>
-                                    <path d="M9 12C9.79565 12 10.5587 11.6839 11.1213 11.1213C11.6839 10.5587 12 9.79565 12 9C12 8.20435 11.6839 7.44129 11.1213 6.87868C10.5587 6.31607 9.79565 6 9 6C8.20435 6 7.44129 6.31607 6.87868 6.87868C6.31607 7.44129 6 8.20435 6 9C6 9.79565 6.31607 10.5587 6.87868 11.1213C7.44129 11.6839 8.20435 12 9 12V12Z" stroke="#A80936" stroke-width="1.5" stroke-linejoin="round"/>
-                                    <path d="M13.125 5.625C13.3239 5.625 13.5147 5.54598 13.6553 5.40533C13.796 5.26468 13.875 5.07391 13.875 4.875C13.875 4.67609 13.796 4.48532 13.6553 4.34467C13.5147 4.20402 13.3239 4.125 13.125 4.125C12.9261 4.125 12.7353 4.20402 12.5947 4.34467C12.454 4.48532 12.375 4.67609 12.375 4.875C12.375 5.07391 12.454 5.26468 12.5947 5.40533C12.7353 5.54598 12.9261 5.625 13.125 5.625Z" fill="#A80936"/>
-                                </svg>                               
+            
+                            <a href="#" class="social-icon">
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.25 2.25H5.75C4.95435 2.25 4.19129 2.56607 3.62868 3.12868C3.06607 3.69129 2.75 4.45435 2.75 5.25V12.75C2.75 13.5456 3.06607 14.3087 3.62868 14.8713C4.19129 15.4339 4.95435 15.75 5.75 15.75H13.25C14.0456 15.75 14.8087 15.4339 15.3713 14.8713C15.9339 14.3087 16.25 13.5456 16.25 12.75V5.25C16.25 4.45435 15.9339 3.69129 15.3713 3.12868C14.8087 2.56607 14.0456 2.25 13.25 2.25Z" stroke="#FDFDFD" stroke-width="1.5" stroke-linejoin="round"/>
+                                    <path d="M9.5 12C10.2956 12 11.0587 11.6839 11.6213 11.1213C12.1839 10.5587 12.5 9.79565 12.5 9C12.5 8.20435 12.1839 7.44129 11.6213 6.87868C11.0587 6.31607 10.2956 6 9.5 6C8.70435 6 7.94129 6.31607 7.37868 6.87868C6.81607 7.44129 6.5 8.20435 6.5 9C6.5 9.79565 6.81607 10.5587 7.37868 11.1213C7.94129 11.6839 8.70435 12 9.5 12V12Z" stroke="#FDFDFD" stroke-width="1.5" stroke-linejoin="round"/>
+                                    <path d="M13.625 5.625C13.8239 5.625 14.0147 5.54598 14.1553 5.40533C14.296 5.26468 14.375 5.07391 14.375 4.875C14.375 4.67609 14.296 4.48532 14.1553 4.34467C14.0147 4.20402 13.8239 4.125 13.625 4.125C13.4261 4.125 13.2353 4.20402 13.0947 4.34467C12.954 4.48532 12.875 4.67609 12.875 4.875C12.875 5.07391 12.954 5.26468 13.0947 5.40533C13.2353 5.54598 13.4261 5.625 13.625 5.625Z" fill="#FDFDFD"/>
+                                </svg>                                                
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <p class="text-center my-5 font-semibold">&copy; ALAT <span class="year"></span> | All Rights Reserved.</p>
+            <p class="text-center my-5 Paragraph_Text_16_Medium">&copy; ALAT <span class="year"></span> | All Rights Reserved.</p>
         </footer>
 
         <script src="/js/jquery-3.6.0.min.js"></script>

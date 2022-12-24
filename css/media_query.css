@@ -54,6 +54,16 @@
         display: none;
     }
 
+    .mx-14{
+        margin-left: 38px !important;
+        margin-right: 38px !important;
+    }
+
+    .mx-16{
+        margin-left: 22px !important;
+        margin-right: 22px !important;
+    }
+
     .Paragraph_Text_16_Regular{
         font-size: 14px;
         line-height: 16px;   
@@ -69,7 +79,7 @@
         line-height: 42px;
     }
 
-    .Heading_Text_56_Bol{
+    .Heading_Text_56_Bold{
         font-size: 36px;
         line-height: 42px;
     }

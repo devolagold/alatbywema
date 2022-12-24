@@ -18,8 +18,15 @@
 }
 
 .Paragraph_Text_20_Bold{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+}
+
+.Paragraph_Text_20_Bold.footer{
+    font-weight: 600;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.03em;
 }
@@ -72,4 +79,9 @@
 
 .text-left{
     text-align: left !important;
+}
+
+.footer-link:hover{
+    color: var(--White-100);
+    opacity: 80% !important;
 }

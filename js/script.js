@@ -5,12 +5,24 @@ const navbar = document.querySelector(".navbar");
 const tab = document.querySelector(".tab")
 const btn = document.querySelectorAll(".personal-business")
 const content = document.querySelectorAll(".content")
+const year = document.querySelector(".year");
+const navBar = document.getElementById("nav")
 
 toggleBtn.addEventListener('click', () =>{
     navLink.classList.toggle('active')
     ctaButton.classList.toggle('active')
     navbar.classList.toggle('active')
     toggleBtn.classList.toggle('open')
+})
+
+// ********** fixed navbar ************
+window.addEventListener('scroll', () => {
+    if(window.pageYOffset > navBar.getBoundingClientRect().height - 90){
+        console.log(navBar.getBoundingClientRect().height + 10);
+        navBar.classList.add("navbar-fixed")
+    } else{
+        navBar.classList.remove("navbar-fixed")
+    }
 })
 
 tab.addEventListener('click', e => {
@@ -27,3 +39,6 @@ tab.addEventListener('click', e => {
         element.classList.add("active")
     }
 })
+
+const currentYear = new Date().getFullYear()
+year.innerHTML = currentYear

@@ -7,6 +7,10 @@
 @import url(media_query.css);
 @import url(navbar.css);
 
+*{
+    /* opacity: 100% !important; */
+}
+
 body, html{
     font-family: "Inter" !important;
     background-color: var(--Dark-1);
@@ -55,4 +59,11 @@ body, html{
     cursor: pointer;
     background-color: var(--White-7);
     box-shadow: 0px 4px 54px rgba(0, 0, 0, 0.1);
+}
+
+.form-control, .form-control:focus{
+    background: rgba(155, 155, 155, 0.05);
+    border: 1px solid rgba(155, 155, 155, 0.4);
+    border-radius: 5px;
+    color: var(--White-100);
 }
