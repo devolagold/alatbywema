@@ -154,8 +154,9 @@
     }
 
     .navbar.active{
-        position: absolute;
-        height: 100%;
+        position: sticky;
+        z-index: 1;
+        height: 100vh;
     }
 
     .button-text-only{

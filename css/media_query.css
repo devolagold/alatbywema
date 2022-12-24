@@ -1,7 +1,36 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px){
+    br{
+        display: none;
+    }
+
     .mx-14{
         margin-left: 18px !important;
         margin-right: 18px !important;
+    }
+
+    .mx-16{
+        margin-left: 22px !important;
+        margin-right: 22px !important;
+    }
+
+    .my-20{
+        margin-top: 42px !important;
+        margin-bottom: 42px !important;
+    }
+
+    .Paragraph_Text_18_Regular{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Heading_Text_24_Medium{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .Heading_Text_48_SemiBold{
+        font-size: 34px;
+        line-height: 42px;
     }
 
     .Heading_Text_56_Bold{
@@ -9,9 +38,9 @@
         line-height: 42px;
     }
 
-    .Heading_Text_24_Medium{
-        font-size: 18px;
-        line-height: 21px;
+    .Heading_Text_56_SemiBold{
+        font-size: 32px;
+        line-height: 38px;
     }
 
     .Heading_Text_66_Bold{
@@ -21,18 +50,43 @@
 }
 
 @media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
-    .Heading_Text_56_Bold{
-        font-size: 36px;
-        line-height: 42px;
+    br{
+        display: none;
+    }
+
+    .Paragraph_Text_16_Regular{
+        font-size: 14px;
+        line-height: 16px;   
     }
 
     .Heading_Text_24_Medium{
         font-size: 18px;
         line-height: 21px;
     }
-    
+
+    .Heading_Text_48_SemiBold{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .Heading_Text_56_Bol{
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .Heading_Text_56_SemiBold{
+        font-size: 42px;
+        line-height: 44px;
+    }
+
     .Heading_Text_66_Bold{
         font-size: 48px;
         line-height: 54px;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:text-left {
+        text-align: left !important;
     }
 }

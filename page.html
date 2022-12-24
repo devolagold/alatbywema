@@ -52,19 +52,283 @@
         </nav>
 
         <!-- Hero Section -->
-        <section class="grid-background flex flex-col items-center mx-14 my-20 text-center space-y-10">
+        <section class="grid-background flex flex-col items-center mx-14 my-20 text-center space-y-7 md:space-y-10">
             <h1 class="Heading_Text_56_Bold">Revolutionize the way you handle <br class="hidden md:block"> Finances and make Financial decisions.</h1>
             <p class="Heading_Text_24_Medium">Our cutting-edge technology and user-friendly platform make it easy for you 
                <br class="hidden md:block"> to manage your money, pay bills, invest, and more, all in one place.</p>
             <div class="flex space-x-4">
                 <a href="#" class="button button-border">
-                    <img src="assets/google-play 1.svg">
+                    <img src="assets/google-play 1.svg" width="120px">
                 </a>
                 <a href="#" class="button button-border">
-                    <img src="assets/apple-play 1.svg">
+                    <img src="assets/apple-play 1.svg" width="120px">
                 </a>
             </div>
         </section>
+
+        <!-- Personal & Business Section -->
+        <section class="tab mx-14 my-20 text-center">
+            <div class="flex justify-center space-x-4">
+                <button data-id="personal" class="button test personal-business Paragraph_Text_18_Regular">
+                    Personal
+                </button>
+                <button data-id="business" class="button personal-business Paragraph_Text_18_Regular active">
+                    Business
+                </button>
+            </div>
+
+            <div class="content mt-8 flex flex-col space-y-7" id="personal">
+                <h4 class="white-linear Heading_Text_56_Bold">Make Payments, Budget, Invest and Bank <br class="hidden md:hidden lg:block">
+                    Securely online on your phone</h4>
+                <p class="Paragraph_Text_18_Regular text-Grey">
+                    Our mission is to empower our users to take control of their finances and achieve their <br>
+                    financial goals. With our advanced algorithms and cutting-edge security measures, <br>
+                    we make it easy and safe for you to manage your money on the go.
+                </p>
+                <div class="mt-9">
+                    <a href="#" class="button Paragraph_Text_16_Medium">Get Started Now!</a>
+                </div>
+            </div>
+
+            <div class="content active mt-8 flex flex-col space-y-7" id="business">
+                <h4 class="white-linear Heading_Text_56_Bold">Manage Your Business Finances <br>                    In One Place</h4>
+                <p class="Paragraph_Text_18_Regular text-Grey">
+                    Stay on top of your business finances with a business account that gives you <br>
+                        total control from anywhere in the world. Join the over 500,000+ <br>
+                            businesses banking on ALAT for Business.
+                </p>
+                <div class="mt-9">
+                    <a href="#" class="button Paragraph_Text_16_Medium">Open an Account in 5 minutes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="gradient-background">
+            <div class="row items-center mx-14 py-14 space-y-10 md:space-y-0">
+                <div class="flex flex-col items-center space-y-6 md:space-y-8 col-lg-6 col-md-6 md:items-start">
+                    <h1 class="Heading_Text_48_SemiBold text-center md:text-left">Pay with comfort, <br class="hidden md:block">
+                        anytime and anywhere
+                    </h1>
+                    <p class="Paragraph_Text_16_Regular text-center md:text-left">Easily and securely make transactions from your device, quickly pay <br>
+                        bills, transfer money to friends and family or even make <br>
+                        purchases online or in-store with just few taps.
+                    </p>
+                    <a href="#" class="button-text-icon">
+                        <p class="Paragraph_Text_16_Regular white-linear">Get Started Now</p>
+                        <svg class="left-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 10.5L9.5 7.5L6.5 4.5" stroke="url(#paint0_linear_196_2514)" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_196_2514" x1="8" y1="4.5" x2="8" y2="10.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.6"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.9"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img src="assets/payment.svg">
+                </div>
+            </div>
+
+            <div class="row flex flex-col-reverse items-center mx-14 pb-10 space-y-10 md:space-y-0 md:flex-row">
+                <div class="col-lg-6 col-md-6">
+                    <img src="assets/loan.svg" class="mt-9">
+                </div>
+
+                <div class="flex flex-col items-center space-y-6 md:space-y-8 col-lg-6 col-md-6 md:items-start">
+                    <h1 class="Heading_Text_48_SemiBold text-center md:text-left">Need quick cash,<br class="hidden md:block">
+                        apply for a loan in seconds
+                    </h1>
+                    <p class="Paragraph_Text_16_Regular text-center md:text-left">Get low-interest short-term loans whenever you're in <br>
+                        one click. *Terms and conditions apply.*
+                    </p>
+                    <a href="#" class="button-text-icon">
+                        <p class="Paragraph_Text_16_Regular white-linear">Apply Now</p>
+                        <svg class="left-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 10.5L9.5 7.5L6.5 4.5" stroke="url(#paint0_linear_196_2514)" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_196_2514" x1="8" y1="4.5" x2="8" y2="10.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.6"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.9"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Everythings you ever wanted -->
+        <section class="tab mx-14 my-20 space-y-4 md:space-y-8">
+            <h1 class="Heading_Text_48_SemiBold text-center white-linear">Everything you ever wanted</h1>
+            <p class="Paragraph_Text_18_Regular text-center text-Grey">
+                With our app, you can access your financial information anytime, anywhere, on any device. <br>
+                    This means you can track your spending, make payments, and manage your <br>
+                        investments with just a few taps on your phone.
+            </p>
+
+            <div class="top row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card p-4 m-1">
+                        <div class="card-body p-1">
+                          <div class="card-icon">
+                              <img src="assets/safe.svg" alt="" class="">
+                          </div>
+                          <h4 class="card-title pt-4 Paragraph_Text_20_Bold">A Fully Digital Bank</h4>
+                          <p class="card-text pt-2 Paragraph_Text_18_Regular">Fund your account, save, and pay bills 
+                            from anywhere in the world.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card p-4 m-1">
+                        <div class="card-body p-1">
+                          <div class="card-icon">
+                              <img src="assets/wallet-05.svg" alt="" class="">
+                          </div>
+                          <h4 class="card-title pt-4 Paragraph_Text_20_Bold">Instant Loans</h4>
+                          <p class="card-text pt-2 Paragraph_Text_18_Regular">Low on cash? Get low-interest short-term
+                            loans in just one click.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card p-4 m-1">
+                        <div class="card-body p-1">
+                          <div class="card-icon">
+                              <img src="assets/credit-card-01.svg" alt="" class="">
+                          </div>
+                          <h4 class="card-title pt-4 Paragraph_Text_20_Bold">Free Card Delivery</h4>
+                          <p class="card-text pt-2 Paragraph_Text_18_Regular">No cost card to be deliver to you in 5 
+                            business days, anywhere in Nigeria.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="bottom relative -top-4 md:-top-6 row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card p-4 m-1">
+                        <div class="card-body p-1">
+                          <div class="card-icon">
+                              <img src="assets/trophy-01.svg" alt="" class="">
+                          </div>
+                          <h4 class="card-title pt-4 Paragraph_Text_20_Bold">Smash Saving</h4>
+                          <p class="card-text pt-2 Paragraph_Text_18_Regular">Take the pressure off saving with our
+                            automated savings plan.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card p-4 m-1">
+                        <div class="card-body p-1">
+                          <div class="card-icon">
+                              <img src="assets/secure-payment.svg" alt="" class="">
+                          </div>
+                          <h4 class="card-title pt-4 Paragraph_Text_20_Bold">Secure Payment</h4>
+                          <p class="card-text pt-2 Paragraph_Text_18_Regular">Bank online with an assured mind 
+                            towards security.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                    <div class="card p-4 m-1">
+                        <div class="card-body p-1">
+                          <div class="card-icon">
+                              <img src="assets/credit-card-01.svg" alt="" class="">
+                          </div>
+                          <h4 class="card-title pt-4 Paragraph_Text_20_Bold">24/7 Customer Support</h4>
+                          <p class="card-text pt-2 Paragraph_Text_18_Regular">Chat with our customer care anytime and get reply
+                            instantly.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Savings -->
+        <section class="tab mx-14 my-20 text-center">
+            <div class="row flex flex-col-reverse items-center space-y-10 md:space-y-0 md:flex-row">
+                <div class="col-lg-6 col-md-6">
+                    <img src="assets/save.svg" class="mt-9">
+                </div>
+
+                <div class="flex flex-col items-center space-y-6 md:space-y-8 col-lg-6 col-md-6 md:items-start">
+                    <h1 class="Heading_Text_48_SemiBold text-center md:text-left">Earn interest on your <br class="hidden md:block">
+                            savings ALAT and enjoy
+                    </h1>
+                    <p class="Paragraph_Text_16_Regular text-center md:text-left">
+                        We have your best interest at heart, We curated various savings <br> 
+                        plans for you to make it easier to set aside money for the <br>
+                        future and reach your financial goals.
+                    </p>
+                    <a href="#" class="button-text-icon">
+                        <p class="Paragraph_Text_16_Regular white-linear">Start Saving Now</p>
+                        <svg class="left-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 10.5L9.5 7.5L6.5 4.5" stroke="url(#paint0_linear_196_2514)" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_196_2514" x1="8" y1="4.5" x2="8" y2="10.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.6"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.9"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Debit Card -->
+        <section class="tab mx-14 my-20 text-center">
+            <div class="row items-center space-y-10 md:space-y-0">
+                <div class="flex flex-col items-center space-y-6 md:space-y-8 col-lg-6 col-md-6 md:items-start">
+                    <h1 class="Heading_Text_48_SemiBold text-center md:text-left">Grab an ALAT <br class="hidden md:block">
+                            Debit card for free
+                    </h1>
+                    <p class="Paragraph_Text_16_Regular text-center md:text-left">Get an ALAT Debit card now and make online payment easy <br>
+                        for you. Visit a WEMA Branch today to get yours.
+                    </p>
+                    <a href="#" class="button-text-icon">
+                        <p class="Paragraph_Text_16_Regular white-linear">Get Yours Now</p>
+                        <svg class="left-icon" width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 10.5L9.5 7.5L6.5 4.5" stroke="url(#paint0_linear_196_2514)" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_196_2514" x1="8" y1="4.5" x2="8" y2="10.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.6"/>
+                            <stop offset="1" stop-color="white" stop-opacity="0.9"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img src="assets/debit-card.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="tab mx-14 my-20">
+            <div class="row items-center space-y-10 md:space-y-0">
+                <div class="flex flex-col items-center space-y-3 md:space-y-3 col-lg-8 col-md-8 md:items-start">
+                    <p class="Paragraph_Text_18_Regular">Try ALAT Today</p>
+                    <h1 class="Heading_Text_56_SemiBold text-center md:text-left white-linear">Create an account <br>
+                        with ALAT in 30 minutes</h1>
+                </div>
+                <div class="col-lg-4 col-md-4 flex items-center justify-center">
+                    <div class="flex space-x-4">
+                        <a href="#" class="button button-border">
+                            <img src="assets/google-play 1.svg" width="120px">
+                        </a>
+                        <a href="#" class="button button-border">
+                            <img src="assets/apple-play 1.svg" width="120px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="/js/jquery-3.6.0.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

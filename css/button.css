@@ -16,8 +16,9 @@
 }
 
 .button-border{
-    background-color: transparent;
+    background-color: var(--Dark-1);
     border: 1px solid var(--Grey-1);
+    opacity: 80%;
 }
 
 .button-text-only{
@@ -47,7 +48,30 @@
 
 .button-text-icon:hover svg{
     transform: translateX(2px);
-    transition: all 1s ease-out;
+    transition: all 1s ease-in-out;
+}
+
+.personal-business{
+    padding: 10px 24px;
+    border-radius: 60px;
+    background-color: transparent;
+    color: var(--Grey-1);
+    opacity: 98%;
+}
+
+.personal-business.active{
+    background-color: var(--White-100);
+    color: var(--Dark-3);
+}
+
+.personal-business.active:hover{
+    background-color: var(--White-100);
+    color: var(--Dark-3);
+}
+
+.personal-business:hover{
+    color: var(--Grey-1);
+    opacity: 100%;
 }
 
 .social-icon{

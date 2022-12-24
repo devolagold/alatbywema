@@ -1,7 +1,7 @@
 .Paragraph_Text_16_Regular{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 24px;
 }
 
 .Paragraph_Text_16_Medium{
@@ -64,4 +64,12 @@
     font-size: 66px;
     line-height: 80px;
     letter-spacing: -0.03em;
+}
+
+.text-Grey{
+    color: var(--Grey-1);
+}
+
+.text-left{
+    text-align: left !important;
 }
