@@ -7,10 +7,6 @@
 @import url(media_query.css);
 @import url(navbar.css);
 
-*{
-    /* opacity: 100% !important; */
-}
-
 body, html{
     font-family: "Inter" !important;
     background-color: var(--Dark-1);
@@ -67,3 +63,18 @@ body, html{
     border-radius: 5px;
     color: var(--White-100);
 }
+
+.top-link {
+    cursor: pointer;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--Dark-3);
+    box-shadow: 0px 4px 54px rgba(0, 0, 0, 0.1);
+    width: 3.3rem;
+    height: 3.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }

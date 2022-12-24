@@ -17,8 +17,7 @@ toggleBtn.addEventListener('click', () =>{
 
 // ********** fixed navbar ************
 window.addEventListener('scroll', () => {
-    if(window.pageYOffset > navBar.getBoundingClientRect().height - 90){
-        console.log(navBar.getBoundingClientRect().height + 10);
+    if(window.pageYOffset > navBar.getBoundingClientRect().height){
         navBar.classList.add("navbar-fixed")
     } else{
         navBar.classList.remove("navbar-fixed")
