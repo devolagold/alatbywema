@@ -14,14 +14,14 @@ body, html{
 }
 
 .grid-background{
-    background: url(/assets/grid-background-unleash.png);
+    background: url(../assets/grid-background-unleash.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .gradient-background{
-    background: url(/assets/gradient-background.png);
+    background: url(../assets/gradient-background.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
